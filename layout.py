@@ -8,8 +8,8 @@ from Zugaenge import zugaenge
 from Abgaenge import abgaenge  
 from Quartal import verweildauer_quartal
 from Entwicklung import entwicklung
-from Karte1 import create_transfer_map
-from streamlit_folium import st_folium
+#from Karte1 import create_transfer_map
+#from streamlit_folium import st_folium
 
 
 
@@ -56,7 +56,7 @@ elif page == "Verweildauer × Quartal":
 elif page == "Spielerentwicklung":
     entwicklung()
     
-elif page == "Interaktive Karte":
-    m = create_transfer_map()
-    if m:
-        st_folium(m, width=None, height=800)
+#elif page == "Interaktive Karte":
+#    m = create_transfer_map()
+#    if m:
+#        st_folium(m, width=None, height=800)
