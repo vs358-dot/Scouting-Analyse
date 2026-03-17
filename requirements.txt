@@ -5,8 +5,7 @@ openpyxl
 matplotlib
 seaborn
 numpy
-fiona==1.9.6
-gdal==3.6.0
+fiona==1.10.1
 branca>=0.6.0
 streamlit-folium
 geopandas
