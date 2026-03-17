@@ -1,0 +1,16 @@
+streamlit
+pandas
+plotly
+openpyxl
+matplotlib
+seaborn
+numpy
+folium>=0.15.0
+branca>=0.6.0
+streamlit-folium
+geopandas
+fiona
+shapely
+rtree
+pyproj
+fastkml
